@@ -33,7 +33,7 @@ function App() {
     GetData();
     localStorage.setItem("groupBy", groupBy);
     localStorage.setItem("orderBy", orderBy);
-  }, [groupBy, orderBy]);
+  }, [groupBy, orderBy]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div>
