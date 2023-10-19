@@ -28,7 +28,7 @@ function App() {
         console.log("Couldn't fetch data from API", err);
       });
   }
-
+// eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     GetData();
     localStorage.setItem("groupBy", groupBy);
